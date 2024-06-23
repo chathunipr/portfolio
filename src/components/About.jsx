@@ -14,18 +14,17 @@ function About() {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p>Hi, I'm Chathuni, nice to meet you. Please look around</p>
+            <p>Hi, I'm Chathuni, nice to meet you. </p>
           </div>
           <div>
             <p>
-              I'm an ambitious second-year undergraduate, I am deeply passionate
-              about pursuing a career in the IT industry. With a keen eye for
-              detail and a natural aptitude for problem-solving, leadership
-              skills, and the ability to work effectively both independently and
-              as part of a team I thrive in dynamic and challenging
-              environments. I am adapt at managing multiple tasks and deadlines,
-              ensuring that projects are completed efficiently and to the
-              highest standard.
+              I am a computer science undergraduate at the Informatics Institute
+              of Technology (IIT), where I am honing my skills and expanding my
+              knowledge in the field. My academic journey began at St. Joseph's
+              Girls' School Nugegoda, where I developed a strong foundation in
+              various disciplines. I have a keen interest in Java development,
+              and I am enthusiastic about leveraging this technology to create
+              innovative and efficient solutions.
             </p>
           </div>
         </div>
