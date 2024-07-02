@@ -1,13 +1,20 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f]">
+    <div
+      name="home"
+      className="w-full bg-[#0a192f] min-h-[calc(100vh)] flex justify-center items-center"
+    >
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col md:flex-row md:items-center justify-center h-full">
-        <div>
+      <div className="max-w-[1000px] gap-10 mx-auto px-8 flex flex-col md:flex-row md:items-center justify-center h-full">
+        <div
+          className="order-2 md:order-1"
+          data-aos="fade-right"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
           <p className="text-pink-600">Hello, I am</p>
           <h1 className="text-4xl sm:text 7xl font-bold text-[#ccd6f6]">
             Chathuni Perera
@@ -36,40 +43,46 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div>
-          {/* <img src="assets/chathuninew.png" className="" alt="chathuni.png" />
-          <svg
-            classname="w-[270px]"
-            viewBox="0 0 200 187"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-          >
-            <mask id="mask0" mask-type="alpha">
-              <path
-                d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+        <div
+          className="order-1 md:order-2 flex justify-center"
+          data-aos="fade-left"
+          data-aos-delay="100"
+          data-aos-duration="300"
+        >
+          <div className="home__img w-[250px] md:w-[300px] md:mb-10">
+            <svg
+              className="home__blob"
+              viewBox="0 0 200 187"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <mask id="mask0" mask-type="alpha">
+                <path
+                  d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
               130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
               97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
               0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-              />
-            </mask>
-            <g mask="url(#mask0)">
-              <path
-                d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                />
+              </mask>
+              <g mask="url(#mask0)">
+                <path
+                  d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
               165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
               129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
               -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-              />
-              <image
-                data-aos="fade-left"
-                data-aos-duration={600}
-                alt="Pramud Nadula"
-                classname="h-[100px] aos-init aos-animate"
-                x={12}
-                y={8}
-                xlinkHref="assets/chathuninew.png"
-              />
-            </g> */}
-          {/* </svg> */}
+                />
+                <image
+                  data-aos="fade-left"
+                  data-aos-duration={600}
+                  alt="Chathuni Perera"
+                  className="home__blob-img"
+                  x={0}
+                  y={18}
+                  xlinkHref="assets/chathuninew.png"
+                />
+              </g>
+            </svg>
+          </div>
         </div>
       </div>
     </div>
