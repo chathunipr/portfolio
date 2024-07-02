@@ -9,7 +9,7 @@ function About() {
   return (
     <div
       name="about"
-      className="w-full text-gray-300 bg-[#0a192f] overflow-hidden min-h-[calc(100vh)] flex justify-center  items-start md:pt-[calc(100px+1rem)]"
+      className="w-full text-gray-300 bg-[#0a192f] overflow-hidden min-h-[calc(100vh)] flex justify-center  items-start py-5 pt-[calc(64px+1rem)] md:pt-[calc(100px+1rem)]"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full">

@@ -15,15 +15,13 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full bg-[#0a192f] text-gray-300 min-h-[calc(100vh-64px)] md:pt-[calc(100px+1rem)]">
+    <div
+      name="skills"
+      className="w-full bg-[#0a192f] text-gray-300 min-h-[calc(100vh-64px)]  pt-[calc(64px+1rem)]  md:pt-[calc(100px+1rem)]"
+    >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-start w-full h-full">
-        <div
-          data-aos="fade-up"
-          data-aos-delay="100"
-          data-aos-duration="300"
-
-        >
+        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="300">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             Skills
           </p>
@@ -38,9 +36,12 @@ const Skills = () => {
               data-aos="fade-up"
               data-aos-delay={index * 100}
               data-aos-duration={300}
-
             >
-              <img className="w-20 mx-auto" src={skill.icon} alt={`${skill.name} icon`} />
+              <img
+                className="w-20 mx-auto"
+                src={skill.icon}
+                alt={`${skill.name} icon`}
+              />
               <p className="my-4">{skill.name}</p>
             </div>
           ))}

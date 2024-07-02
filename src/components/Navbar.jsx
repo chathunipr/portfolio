@@ -56,39 +56,43 @@ const Navbar = () => {
         </div>
 
         {/* social icons */}
-        <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+        <div className="flex fixed flex-col top-[35%] left-0">
           <ul>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+            <li className="w-[140px] md:w-[160px] h-[35px] md:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="https://www.linkedin.com/in/chathuniperera/"
+                target="_blank"
+                rel="noreferrer"
               >
-                LinkedIn <FaLinkedin size={30} />{" "}
+                LinkedIn <FaLinkedin className="size-1/6 md:size-8" />{" "}
               </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+            <li className="w-[140px] md:w-[160px] h-[35px] md:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="https://github.com/chathunipr"
+                target="_blank"
+                rel="noreferrer"
               >
-                Github <FaGithub size={30} />{" "}
+                Github <FaGithub className="size-1/6 md:size-8" />{" "}
               </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#388b58]">
+            <li className="w-[140px] md:w-[160px] h-[35px] md:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#388b58]">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="mailto:chathuninperera@gmail.com"
               >
-                Email <HiOutlineMail size={30} />{" "}
+                Email <HiOutlineMail className="size-1/6 md:size-8" />{" "}
               </a>
             </li>
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+            <li className="w-[140px] md:w-[160px] h-[35px] md:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="/assets/documents/Chathuni Perera - Resume.pdf"
                 download
               >
-                Resume <BsFillPersonLinesFill size={30} />{" "}
+                Resume <BsFillPersonLinesFill className="size-1/6 md:size-8" />{" "}
               </a>
             </li>
           </ul>
@@ -127,11 +131,11 @@ const Navbar = () => {
         <li className="py-6 text-4xl hover:text-[#db2777]">
           <Link
             onClick={handleClick}
-            to="qualification"
+            to="projects"
             smooth={true}
             duration={500}
           >
-            Qualification
+            Projects
           </Link>
         </li>
         <li className="py-6 text-4xl hover:text-[#db2777]">

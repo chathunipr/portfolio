@@ -49,7 +49,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full md:h-screen text-gray-300 bg-[#0a192f]"
+      className="w-full md:h-screen text-gray-300 bg-[#0a192f]  pt-[calc(64px+1rem)] md:pt-[calc(0px)]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div
