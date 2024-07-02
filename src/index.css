@@ -2,22 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
-  font-family: "Poppins", sans-serif;
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
-@layer base{
+@layer base {
   /* body{
     @apply font-[Raleway];
   } */
-  li{
+  li {
     @apply px-4;
     @apply cursor-pointer;
   }
-
 }
 
 .content-div {
@@ -27,37 +25,49 @@ body{
   height: 250px;
 }
 
-.content-div:hover{
+.content-div:hover {
   /* background-image: 
   linear-gradient(
     to right,
     rgba(66, 66, 66, 0),
     hsla(240, 1%, 27%, 0.227)
   )!Important; */
-background-color: #000000ed;
+  background-color: #000000ed;
 }
 
+/* SVG color */
+.home__blob {
+  fill: #db2777;
+  transition: 0.3s;
+}
+
+.home__blob-img {
+  width: 170px;
+  transition: 0.3s;
+}
+
+.home__blob-img:hover {
+  transform: translateY(-0.125rem);
+}
+
+.home__blob:hover {
+  transform: translateY(-2rem);
+}
 
 /*==================== QUALIFICATION ====================*/
-.qualification__tabs {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: var(--mb-2);
-}
-
 .qualification__button {
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-medium);
+  font-size: 1.125rem;
+  font-weight: 500;
   cursor: pointer;
 }
 
 .qualification__button:hover {
-  color: var(--first-color);
+  color: hsl(4650, 69%, 61%);
 }
 
 .qualification__icon {
   font-size: 1.8rem;
-  margin-right: var(--mb-0-25);
+  margin-right: 0.25rem;
 }
 
 .qualification__data {
@@ -67,26 +77,26 @@ background-color: #000000ed;
 }
 
 .qualification__title {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
+  font-size: 0.938rem;
+  font-weight: 500;
 }
 
 .qualification__subtitle {
   display: inline-block;
-  font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
+  font-size: 0.813rem;
+  margin-bottom: 1rem;
 }
 
 .qualification__calendar {
-  font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
+  font-size: 0.75rem;
+  color: hsl(4650, 8%, 65%);
 }
 
 .qualification__rounder {
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: var(--first-color);
+  background-color: hsl(4650, 69%, 61%);
   border-radius: 50%;
 }
 
@@ -94,18 +104,10 @@ background-color: #000000ed;
   display: block;
   width: 1px;
   height: 100%;
-  background-color: var(--first-color);
+  background-color: hsl(4650, 69%, 61%);
   transform: translate(6px, -7px);
 }
 
-.qualification [data-content] {
-  display: none;
-}
-
-.qualification__active[data-content] {
-  display: block;
-}
-
-.qualification__button.qualification__active {
-  color: var(--first-color);
+.qualification__active {
+  color: hsl(4650, 69%, 61%);
 }
