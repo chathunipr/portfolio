@@ -18,9 +18,9 @@ const Projects = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
           <div
-            style={{
-              backgroundImage: "url(assets/rg.jpg)",
-            }}
+            // style={{
+            //   backgroundImage: "url("Projects")",
+            // }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -29,7 +29,7 @@ const Projects = () => {
                 Rumble Guard
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="www.rumbleguard.com">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -43,7 +43,7 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: "url(assets/rg.jpg)" }}
+            // style={{ backgroundImage: "url("Projects")" }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -66,7 +66,7 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: "url(assets/rg.jpg)" }}
+            // style={{ backgroundImage: "url("Projects")" }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}

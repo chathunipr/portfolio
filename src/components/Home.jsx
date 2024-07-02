@@ -16,13 +16,14 @@ const Home = () => {
             An Undergraduate
           </h2>
           <p className="text-[#8892b0] py-4 max-w-[700px]">
-            I am deeply passionate about pursuing a career in the IT industry.
-            With a keen eye for detail and a natural aptitude for
-            problem-solving, leadership skills, and the ability to work
-            effectively both independently and as part of a team I thrive in
-            dynamic and challenging environments. I am adapt at managing
-            multiple tasks and deadlines, ensuring that projects are completed
-            efficiently and to the highest standard.
+            I am an active and hardworking computer science undergraduate,
+            always looking for new challenges and learning opportunities. My
+            passion for problem solving has led me to volunteer in projects at
+            my university, where I can apply my skills to practical problems and
+            continuously grow. I am competing in prominent competitions both
+            locally and worldwide, demonstrating my competitive spirit and
+            determination for excel. I thrive in dynamic workplaces and am
+            always eager to take on new challenges.
           </p>
           <div>
             <button className="text-white group border-2 px-6 py-3 my-2 flex item-center hover:bg-pink-600 hover:border-pink-600 rounded-md">
