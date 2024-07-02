@@ -4,43 +4,73 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
+      className="w-full text-gray-300 bg-[#0a192f]  min-h-[calc(100vh-64px)] flex justify-center items-start"
     >
-      <form
-        method="POST"
-        action="https://getform.io/f/jbwxlwya"
-        className="flex flex-col max-w-[600px] w-full"
-      >
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
-            Contact
-          </p>
-          <p className="text-gray-300 py-4">
-            Submit the form below or shoot me an email -
-            chathuninperera@gmail.com
-          </p>
+      <div className="flex flex-col justify-center items-center w-full h-full">
+        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full">
+          <div
+            className="pb-8"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="300"
+          >
+            <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+              Contact
+            </p>
+            <p className="py-4">
+              Submit the form below or shoot me an email -
+              <a
+                href="mailto:chathuninperera@gmail.com"
+                className="text-pink-600"
+              >
+                chathuninperera@gmail.com
+              </a>
+            </p>
+          </div>
         </div>
-        <input
-          className=" bg-[#ccd6f6] p-2 rounded-md"
-          type="text"
-          placeholder="Name"
-          name="name"
-        />
-        <input
-          className="my-4 p-2 bg-[#ccd6f6] rounded-md"
-          placeholder="Email"
-          name="email"
-        />
-        <textarea
-          className=" bg-[#ccd6f6] p-2 rounded-md"
-          name="message"
-          rows="10"
-          placeholder="Message"
-        ></textarea>
-        <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center rounded-md">
-          Let's Collaborate
-        </button>
-      </form>
+        <div className="max-w-[1000px] w-full px-4">
+          <form
+            method="POST"
+            action="https://getform.io/f/jbwxlwya"
+            className="flex flex-col w-full"
+          >
+            <input
+              className="my-4 p-2 bg-[#ccd6f6] rounded-md text-black"
+              type="text"
+              placeholder="Name"
+              name="name"
+              required
+              data-aos="fade-up"
+              data-aos-delay="100"
+            />
+            <input
+              className="my-4 p-2 bg-[#ccd6f6] rounded-md text-black"
+              placeholder="Email"
+              name="email"
+              required
+              data-aos="fade-up"
+              data-aos-delay="200"
+            />
+            <textarea
+              className="my-4 p-2 bg-[#ccd6f6] rounded-md text-black"
+              name="message"
+              rows="10"
+              placeholder="Message"
+              required
+              data-aos="fade-up"
+              data-aos-delay="300"
+            ></textarea>
+            <button
+              className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center rounded-md"
+              type="submit"
+              // data-aos="fade-up"
+              // data-aos-delay="400"
+            >
+              Let's Collaborate
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 };
