@@ -22,7 +22,7 @@ function About() {
             <p className="text-4xl font-bold inline border-b-4 border-pink-600">
               About
             </p>
-            <p className="py-4">My Qualifications and Skills</p>
+            <p className="py-4">My Education Journey and Other</p>
           </div>
         </div>
         <div className="max-w-[1000px] w-full px-4">

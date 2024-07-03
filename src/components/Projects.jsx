@@ -13,7 +13,7 @@ const projects = [
     name: "Rumble Guard",
     description:
       "Elephant detecting system using seismic waves and alerting app to reduce human-elephant conflict. ",
-    demoLink: "www.rumbleguard.com",
+    demoLink: "https://rumbleguard.com/",
     // codeLink: "/",
     backgroundImage: "url('/assets/rg11.png')",
   },
