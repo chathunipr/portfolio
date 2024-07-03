@@ -23,14 +23,11 @@ const Home = () => {
             An Undergraduate
           </h2>
           <p className="text-[#8892b0] py-4 max-w-[700px]">
-            I am an active and hardworking computer science undergraduate,
-            always looking for new challenges and learning opportunities. My
-            passion for problem solving has led me to volunteer in projects at
-            my university, where I can apply my skills to practical problems and
-            continuously grow. I am competing in prominent competitions both
-            locally and worldwide, demonstrating my competitive spirit and
-            determination for excel. I thrive in dynamic workplaces and am
-            always eager to take on new challenges.
+            A passionate computer science undergraduate at the Informatics
+            Institute of Technology (IIT). With a strong interest for Java, I
+            love exploring new technologies and building innovative projects.
+            I'm eager to continue learning, growing, and contributing to
+            exciting tech ventures.
           </p>
           <div>
             <button className="text-white group border-2 px-6 py-3 my-2 flex item-center hover:bg-pink-600 hover:border-pink-600 rounded-md">
