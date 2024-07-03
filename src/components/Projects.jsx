@@ -84,14 +84,14 @@ const Projects = () => {
                 <div className="pt-8 text-center">
                   {project.demoLink && (
                     <a href={project.demoLink} target="_blank" rel="noreferrer">
-                      <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-sm  hover:bg-pink-600 hover:border-pink-600">
+                      <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-sm  hover:bg-pink-600 hover:border-pink-600 hover:text-white">
                         Details
                       </button>
                     </a>
                   )}
                   {project.codeLink && (
                     <a href={project.codeLink} target="_blank" rel="noreferrer">
-                      <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-sm  hover:bg-pink-600 hover:border-pink-600">
+                      <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-sm  hover:bg-pink-600 hover:border-pink-600 hover:text-white">
                         GitHub Link
                       </button>
                     </a>
